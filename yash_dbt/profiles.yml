@@ -1,0 +1,20 @@
+yash_dbt:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-7c5239b7-ccb9.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/3a9a703a606bdf42
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+
+    prod:
+      catalog: dbt_tutorial_prod
+      host: dbc-7c5239b7-ccb9.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/3a9a703a606bdf42
+      schema: default
+      threads: 1
+      token: 
+      type: databricks
+  target: dev
